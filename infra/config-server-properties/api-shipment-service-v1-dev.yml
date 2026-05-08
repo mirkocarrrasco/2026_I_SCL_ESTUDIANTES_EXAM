@@ -5,9 +5,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:51060/deliverydb
-    username: deliveryuser
-    password: deliverypass
+    url: jdbc:postgresql://localhost:51060/shipmentdb
+    username: shipmentuser
+    password: shipmentpass
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
