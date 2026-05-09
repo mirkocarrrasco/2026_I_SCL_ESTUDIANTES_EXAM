@@ -16,8 +16,8 @@ http-clients:
     api-inventory-service-v2:
       base-url: http://api-inventory-service-v2/api/v2/inventories
       timeout: 5s
-    api-delivery-service-v1:
-      base-url: http://api-delivery-service-v1/api/v1/delivery
+    api-shipment-service-v1:
+      base-url: http://api-shipment-service-v1/api/v1/shipment
       timeout: 5s
   external:
     api-visa-v1:
